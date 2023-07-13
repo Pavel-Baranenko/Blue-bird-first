@@ -2310,7 +2310,7 @@ font-family: 'Roboto', sans-serif;
    }
 
    .book__text {
-      height: 176px;
+      height: 173px;
       overflow: hidden;
    }
 
@@ -2405,5 +2405,20 @@ font-family: 'Roboto', sans-serif;
 
    .news__box {
       padding: 24px 12px;
+   }
+
+   .feedback__buttons {
+      flex-wrap: wrap;
+   }
+
+   .book__cover img {
+      width: 280px;
+   }
+
+   .book__video {
+      * {
+         width: 280px;
+         height: auto;
+      }
    }
 }
